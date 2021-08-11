@@ -1,0 +1,6 @@
+// SQL command for creating table - just for reference
+CREATE TABLE user_info(id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(255), address VARCHAR(255), contact VARCHAR(255));
+
+// command used for compilation of the program
+g++ main.cpp user_personal_info.cpp database_functions.cpp user_input_functions.cpp python_functions.cpp finding_route.cpp graph_file_operation.cpp -lsqlite3 -I "C:\Program Files\Python39\include" -lpython39 -L "C:\Program Files\Python39\libs" -o main.exe
+
